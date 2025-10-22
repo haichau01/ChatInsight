@@ -8,6 +8,25 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
 
 # Build results
+bin/
+obj/
+
+# User-specific files
+.vs/
+*.user
+*.suo
+
+# Publish output
+*.Publish.xml
+
+# Logs
+*.log
+
+# Rider / VSCode
+.idea/
+.vscode/
+
+# Build results
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
