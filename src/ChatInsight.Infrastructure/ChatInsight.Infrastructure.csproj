@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ChatInsight.Application\ChatInsight.Application.csproj" />
     <ProjectReference Include="..\ChatInsight.Domain\ChatInsight.Domain.csproj" />
     <ProjectReference Include="..\ChatInsight.Shared\ChatInsight.Shared.csproj" />
   </ItemGroup>

@@ -3,7 +3,7 @@ using ChatInsight.Domain.Interfaces.IPersistences.Generic;
 
 namespace ChatInsight.Domain.Interfaces.PersistenceInterface.ModelInterface
 {
-    public interface IUserRepository : IGenericRepository<UserEntity>
+    public interface IUserRepository : IRepository<UserEntity, Guid>
     {
     }
 }
