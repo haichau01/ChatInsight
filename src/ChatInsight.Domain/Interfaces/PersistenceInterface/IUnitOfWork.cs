@@ -1,6 +1,10 @@
-﻿namespace ChatInsight.Domain.Interfaces.IPersistences
+﻿using ChatInsight.Domain.Interfaces.PersistenceInterface.ModelInterface;
+
+namespace ChatInsight.Domain.Interfaces.IPersistences
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork : IAsyncDisposable
     {
+        public IUserRepository Users { get; }
+        Task<int> SaveChangesAsync();
     }
 }

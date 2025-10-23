@@ -9,4 +9,8 @@
     <UserSecretsId>84d187f4-a937-43c6-a084-9f0cd6bc720b</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ChatInsight.Domain\ChatInsight.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
