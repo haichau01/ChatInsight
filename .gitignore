@@ -42,6 +42,35 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+# ==========================================
+# Data folders (fake data, generated JSON)
+# ==========================================
+data/
+**/data/
+**/data/**
+
+# ==========================================
+# Solr
+# ==========================================
+solr/
+**/solr/
+**/solr/**
+
+# Solr local core configs & indexes
+server/solr/
+server/logs/
+logs/
+**/server/solr/**
+**/server/logs/**
+
+# ==========================================
+# PostgreSQL (if you run local volume)
+# ==========================================
+pgdata/
+postgres-data/
+**/pgdata/**
+**/postgres-data/**
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json
